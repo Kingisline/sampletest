@@ -520,7 +520,8 @@ html::-webkit-scrollbar {
   transition: 0.5s;
 }
 .container:hover .card {
-  filter: blur(20px);
+  /* filter: blur(20px); */
+  filter: blur(2px);
   transform: scale(0.9);
   opacity: 0.5;
 }
