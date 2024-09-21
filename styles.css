@@ -102,6 +102,7 @@ object-fit: cover; /* Ensures the video covers the entire background */
   font-weight: 800;
   /* font-style: normal; */
   margin-top: 20px;
+  text-shadow: 0px 0px 30px 1px var(--neonBlue);
 
 }   
 
@@ -312,7 +313,7 @@ margin-top: 30px;
     width: 400px;
       flex-direction: column; /* Stack image and paragraph vertically */
       text-align: center;
-      box-shadow: 0px 0px 30px 1px var(--neonBlue);
+      /* box-shadow: 0px 0px 30px 1px var(--neonBlue); */
   }
 
   .responsive-image, .text {
