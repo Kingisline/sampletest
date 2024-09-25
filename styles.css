@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Vermin Vibes';
+  src: url('/fonts/verminvibes.woff2') format('woff2'),
+       url('/fonts/verminvibes.woff') format('woff'),
+       url('/fonts/verminvibes.ttf') format('truetype'); /* fallback */
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,html{
   margin: 0;
   padding: 0;
@@ -89,22 +98,64 @@ object-fit: cover; /* Ensures the video covers the entire background */
 
 
 
-.header1 h1 {
+ .header1 h1 {
   font-size: 6.8rem;
-  /* text-align: left;  */
+   text-align: left;  
   margin: 0;
   padding: 0;
   text-align: center;
-  text-shadow: 0 -10px 70px, 0 0 2px, 0 0 1em #34073d, 0 10px 8px #34073d;
+   /* text-shadow: 0 -10px 70px, 0 0 2px, 0 0 1em #34073d, 0 10px 8px #34073d;  */
+  /* text-shadow: 0 -10px 70px, 0 0 2px, 0 0 1em #00ffd0, 0 10px 8px #02cddba9; */
   color: #DCF2F1;
-  font-family: "Kode Mono", system-ui;
-  /* font-optical-sizing: auto; */
+   font-family: "Kode Mono", system-ui; 
+  /* font-family: 'Vermin Vibes', sans-serif; */
   font-weight: 800;
-  /* font-style: normal; */
   margin-top: 20px;
   text-shadow: 0px 0px 30px 1px var(--neonBlue);
+  text-shadow: 0 0 10px #03bcf4,
+                  0 0 20px #03bcf4,
+                  0 0 40px #03bcf4,
+                  0 0 80px #03bcf4,
+                  0 0 160px #03bcf4;
+  animation: animate 6s linear infinite;
 
-}   
+}  
+
+
+/* .header1 h1{
+  position: relative;
+  font-size: 6.2rem;
+  font-family: "Kode Mono", system-ui;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.70em;
+  outline: none;
+  animation: animate 15s linear infinite;
+}
+ */
+
+@keyframes animate{
+  0%, 18%, 20%, 50.1%,60%,65.1%,80%,90.1%,92%{
+      /* color: #0e3742; */
+      color: #03bcf4;
+      text-shadow: none;
+  }
+
+  18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+      color: #fff;
+      text-shadow: 0 0 10px #03bcf4,
+                  0 0 20px #03bcf4,
+                  0 0 40px #03bcf4,
+                  0 0 80px #03bcf4,
+                  0 0 160px #03bcf4;
+  }
+}
+
+
 
 /* .header1 h1 {
   z-index: 2;
