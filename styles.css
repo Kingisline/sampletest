@@ -130,7 +130,7 @@ font-size: 6.8rem;
   text-shadow: 0 -10px 70px, 0 0 2px, 0 0 1em #34073d, 0 10px 8px #34073d;
   color: #DCF2F1;
 /* font-family: "Kode Mono", system-ui; */
-font-family: 'VerminVibes', sans-serif;
+font-family: "Rye", serif;
 src: url('fonts/vermin-vibes.woff2') format('woff2'),
      url('fonts/vermin-vibes.woff') format('woff');
 font-optical-sizing: auto;
@@ -551,7 +551,10 @@ html::-webkit-scrollbar {
   bottom: 10px;
   padding: 20px;
   text-align: center;
-  color: #000;
+  /* color: #000; */
+  color: #B17457;
+  /* font-family: "Rye", serif; */
+  font-family: "Cabin", sans-serif;
 }
 .container .card .des p {
   color: #666;
