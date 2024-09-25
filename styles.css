@@ -604,8 +604,8 @@ html::-webkit-scrollbar {
   text-align: center;
   /* color: #000; */
   color: #B17457;
-  /* font-family: "Rye", serif; */
   font-family: "Cabin", sans-serif;
+  font-weight: 800;
 }
 .container .card .des p {
   color: #666;
