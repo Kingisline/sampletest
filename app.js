@@ -24,3 +24,8 @@ function updateCountdown() {
 }
 
 setInterval(updateCountdown, 1000);
+
+
+document.getElementById("redirectButton").onclick = function () {
+  window.location.href = "redirect/index.html";  // Replace with your desired page
+};
